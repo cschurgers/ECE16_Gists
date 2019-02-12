@@ -69,8 +69,8 @@ if (__name__ == "__main__"):
     # Retrieve Gaussian parameters
     mu0 = gmm_fit.means_[0]
     mu1 = gmm_fit.means_[1]
-    std0 = np.sqrt(gmm_fit.covariances_[0])
-    std1 = np.sqrt(gmm_fit.covariances_[1])
+    sig0 = np.sqrt(gmm_fit.covariances_[0])
+    sig1 = np.sqrt(gmm_fit.covariances_[1])
     w0 = gmm_fit.weights_[0]
     w1 = gmm_fit.weights_[1]
     
